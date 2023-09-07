@@ -210,7 +210,7 @@ h5{
 @media (max-width:425px){
    
     #background{  
-        background: url(images/fondocel.svg);
+        background: url(images/fondocel2.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;
@@ -349,7 +349,7 @@ h5{
             max-width: 340px; 
         }
         #sm{
-            font-size: 14px;
+            font-size: 16px;
             margin-top: 1px;
         }
        
@@ -368,9 +368,14 @@ h5{
         background-size: cover;
         background-position: bottom;  
     }
+    #back{
+        display: none;
+    }
 
     footer{   
         margin-top: 500px;
         }
-
+        .fr2{
+            margin-top: 500px;
+          }  
        }
