@@ -5,23 +5,13 @@
 }
 
 #background{  
-    background: url(imagenes/fondoN.png);
+    background: url(images/fondo2.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
     width: 100%;
     height: 100vh;  
 }
-
-/*#background2{ background: url(imagenes/fondo.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: bottom;
-    width: 100%;
-    height: 100vh;  
-
-}*/
-
 
 #home{
     padding-top: 12%;
@@ -51,7 +41,7 @@
     transition: 0.2s;
     text-shadow: 0 5px 5px 0 rgba(94, 93, 93, 0.353);
 }
-#volverI{
+#backI{
     color: rgba(171, 67, 140, 1);
 }
 b{
@@ -93,18 +83,18 @@ p{
     color: #606060;
 }
 
-.imgRedes{
+.imgSocials{
   align-items: center;
   width: 70px;
   margin-top: 80px; 
 }
 
-.imgRedes:hover{
+.imgSocials:hover{
     transform: scale(1.15);
     transition: 0.2s;
 }
 
-.redes{
+.socials{
     display: flex;
     justify-content: center;
     margin-bottom: 20px;
@@ -115,8 +105,8 @@ p{
     margin-left: 15px;
 }
 
-#flecha,
-#volver {
+#arrow,
+#back {
     padding-left: 710px;
 }
 #h3sm{
@@ -126,7 +116,7 @@ p{
     color: rgba(171, 67, 140, 1);  
    margin-left: 70%;
 }
-.columnas{
+.columns{
     display: flex;
     margin:8%;
    margin-top: 10px;
@@ -139,9 +129,9 @@ p{
 
     width: 50%;
 }
-/*proyectos*/
+/*projects*/
 
-.proyectos{
+.projects{
     width: 100%;
     max-width: 1200px;
     height: 430px;
@@ -152,7 +142,7 @@ p{
     margin-bottom:40px;
 }
 
-.proyectos .card{
+.projects .card{
 width: 330px;
 height: 400px;
 border-radius: 8px;
@@ -163,23 +153,23 @@ text-align: center;
 transition: all 0.25s;
 }
 
-.proyectos .card:hover{
+.projects .card:hover{
     transform: translateY(-15px);
     box-shadow: 0, 12px, 16px rgba(0, 0, 0, 0.2);
 }
 
-.proyectos .card img{
+.projects .card img{
     width: 330px;
     height: 220px;
 }
 
-.proyectos .card h3{
+.projects .card h3{
     font-weight: 600;
     padding: 15px;
     font-family:'Karla';
 }
 
-.proyectos .card h4{
+.projects .card h4{
     padding: 1rem;
     font-size: 16px;
     font-weight: 300px;
@@ -188,7 +178,7 @@ transition: all 0.25s;
     font-family:'Karla';
 }
 
-.proyectos .card a{
+.projects .card a{
     font-weight: 500;
     text-decoration: none;
     color: rgba(171, 67, 140, 1);
@@ -216,7 +206,7 @@ h5{
 @media (max-width:425px){
    
     #background{  
-        background: url(imagenes/fondoPPphone2\ .png);
+        background: url(images/fondoPPphone2\ .png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;
@@ -234,7 +224,7 @@ h5{
 
     h2{
         margin:20px;
-        font-size: 35px;   
+        font-size: 20px;   
     }
     h3{ 
         font-size: 30px;
@@ -243,33 +233,34 @@ h5{
         margin-top: 8px;
         margin-bottom: 8px;
     }
-
+    
+    
     p{
-        font-size: 18px;
+        font-size: 16px;
         padding-left: 2px;
     }
     
-    .imgRedes{  
+    .imgSocials{  
         width: 40px; 
      }    
 
-     #flecha
+     #arrow
      {
-        padding-left: 190px; 
+        padding-left: 45%; 
     }
 
-     #volver{
+     #back{
         display: none;
     }
 
-     .proyectos .card{     
+     .projects .card{     
       padding-top: 5px; 
      }
        
     footer{   
         margin-top: 900px;
         }  
-        .columnas{
+        .columns{
             display: flex;
             flex-direction: column;
         }
@@ -277,19 +268,19 @@ h5{
             max-width: 300px;
         }
         .col-2{
-            width: 100%;
+            width: 80%;
         }
         #sm{
-            font-size: 16px;
-            margin-top: 14px;
+            font-size: 14px;
+            margin-top: 8px;
         }
         
 }
 
-@media screen and (min-width:426px) and (max-width:1023px){
+@media screen and (min-width:426px) and (max-width:1024px){
 
     #background{  
-        background: url(imagenes/fondoPPtablet\ 2.png);
+        background: url(images/fondoPPtablet\ 2.png);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;  
@@ -320,29 +311,30 @@ h5{
     }
 
 
-    .imgRedes{ 
+    .imgSocials{ 
       width: 60px;
       margin-top: 100px; 
     }
 
-    #flecha,
-    #volver{
-        padding-left: 360px;
+    #arrow,
+    #back{
+        padding-left: 48%;
     }
-    #volver{
+    #back{
         display: none;
     }
 
     footer{   
         margin-top: 500px;
         }
-        .columnas{
+        .columns{
             display: flex;
             flex-direction: column;
         }
         .col-1{
-            width: 100%;
+            width: 80%;
         }
+       
         .img1{
             max-width: 360px;
           
