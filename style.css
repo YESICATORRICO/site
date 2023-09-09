@@ -14,7 +14,7 @@
 }
 
 #home{
-    padding-top: 12%;
+    padding-top: 10%;
     padding-left: 10%;
 }
 
@@ -86,7 +86,7 @@ p{
 .imgSocials{
   align-items: center;
   width: 70px;
-  margin-top: 80%; 
+  margin-top: 20%; 
 }
 
 .imgSocials:hover{
@@ -97,7 +97,7 @@ p{
 .socials{
     display: flex;
     justify-content: center;
-    margin-bottom: 20px;
+    margin-bottom: 2%;
 }
 
 .Be{
@@ -144,7 +144,7 @@ p{
     flex-wrap: wrap;
     justify-content: center;
     margin: auto;
-    margin-bottom:40px;
+    margin-bottom:6%;
 }
 
 .projects .card{
@@ -174,14 +174,14 @@ transition: all 0.25s;
     font-family:'Karla';
 }
 
-.projects .card h4{
+/*.projects .card h4{
     padding: 1rem;
     font-size: 16px;
     font-weight: 300px;
     color: #606060;
     text-align: left;
     font-family:'Karla';
-}
+}*/
 
 .projects .card a{
     font-weight: 500;
@@ -192,13 +192,14 @@ transition: all 0.25s;
 footer{
     background-color: rgb(179, 84, 150);
     padding: 40px;
-    margin-top: 75px;
+    margin-top: 6%;
 }
 .fr2{
     position: absolute;
   bottom: 0;
   width: 100%;
   height: 2.5rem; 
+  margin-top: 6%;
   
 }
 
@@ -257,7 +258,7 @@ h5{
      #back{
         display: none;
     }
-
+   
      .projects .card{     
       padding-top: 5px; 
      }
@@ -281,13 +282,10 @@ h5{
             margin-top: 2px;
         }
       footer{
-        margin-top: 900px;
+        margin-top: 220%;
       } 
       .fr2{
-        position: absolute;
-        bottom: 0;
-        width: 100%;
-        height: 40px;
+        margin-top: 10%;
       }
 }
 
@@ -336,12 +334,10 @@ h5{
     }
 
     footer{   
-        margin-top: 600px;
+        margin-top: 70%;
         }
 
-      .fr2{
-        margin-top: 900px;
-      }  
+      
         .columns{
             display: flex;
             flex-direction: column;
@@ -380,9 +376,9 @@ h5{
     }
 
     footer{   
-        margin-top: 500px;
+        margin-top: 60%;
         }
         .fr2{
-            margin-top: 500px;
+            margin-top: 60%;
           }  
        }
