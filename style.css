@@ -351,8 +351,15 @@ h5{
     #back{
         padding-left: 48%;
     }
+    #h3sm{
+        margin-top: 6px;
+        margin-bottom: 6px;
+    }
     .columns{
         margin-top: 5px;
+    }
+    .img1{
+        max-width: 80%; 
     }
    #sm{
     font-size: 19px;
@@ -360,7 +367,7 @@ h5{
    }
    
     .projects{ 
-        height: 50%;
+        height: 40%;
     }
     .fr2{
         position: fixed;
