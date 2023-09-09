@@ -268,12 +268,12 @@ h5{
             bottom: end;
             width: 100%;
         }
-     /*footer{
-        margin-top: 250%;
-      } 
+     
       .fr2{
-        margin-top: 10%;
-      }*/
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
 }
 
 @media screen and (min-width:426px) and (max-width:1023px){
@@ -316,9 +316,11 @@ h5{
         height: 50%;
     }
 
-    /*footer{   
-        margin-top: 70%;
-        }*/
+    .fr2{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
 
         .columns{
             display: flex;
@@ -351,7 +353,11 @@ h5{
     .projects{ 
         height: 50%;
     }
-
+    .fr2{
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
    /* footer{   
         margin-top: 60%;
         }
