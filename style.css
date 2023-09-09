@@ -107,7 +107,6 @@ p{
 
 #arrow,
 #back {
-   /* padding-left: 710px;*/
    padding-left: 48.5%; 
 }
 #h3sm{
@@ -174,15 +173,6 @@ transition: all 0.25s;
     font-family:'Karla';
 }
 
-/*.projects .card h4{
-    padding: 1rem;
-    font-size: 16px;
-    font-weight: 300px;
-    color: #606060;
-    text-align: left;
-    font-family:'Karla';
-}*/
-
 .projects .card a{
     font-weight: 500;
     text-decoration: none;
@@ -195,12 +185,11 @@ footer{
     margin-top: 6%;
 }
 .fr2{
-    position: absolute;
+  position: absolute;
   bottom: 0;
   width: 100%;
   height: 2.5rem; 
-  margin-top: 6%;
-  
+  margin-top: 6%; 
 }
 
 h5{
@@ -210,13 +199,6 @@ h5{
 }
 
 @media (max-width:425px){
-   
-    /*#background{  
-        background: url(images/fondocel2.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom;
-    }*/
    
     #home{
         padding-top: 45%;
@@ -250,20 +232,20 @@ h5{
         width: 40px; 
      }    
 
-     #arrow
+     #arrow,
+     #back 
      {
         padding-left: 45%; 
     }
-
-     #back{
-        display: none;
+    
+    .projects{ 
+        height: 50%;
     }
-   
      .projects .card{     
-      padding-top: 5px; 
+      padding-top: 2%; 
+
      }
        
-     
      .columns{
             display: flex;
             flex-direction: column;
@@ -281,22 +263,20 @@ h5{
      #i{
             margin-top: 2px;
         }
-      footer{
-        margin-top: 220%;
+        footer{
+            position: absolute;
+            bottom: end;
+            width: 100%;
+        }
+     /*footer{
+        margin-top: 250%;
       } 
       .fr2{
         margin-top: 10%;
-      }
+      }*/
 }
 
 @media screen and (min-width:426px) and (max-width:1023px){
-
-   /* #background{  
-        background: url(images/fondotablet.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom;  
-    }*/
 
     h1{
         font-size: 60px;  
@@ -329,15 +309,17 @@ h5{
     #back{
         padding-left: 48%;
     }
-    #back{
+    /*#back{
         display: none;
+    }*/ 
+    .projects{ 
+        height: 50%;
     }
 
-    footer{   
+    /*footer{   
         margin-top: 70%;
-        }
+        }*/
 
-      
         .columns{
             display: flex;
             flex-direction: column;
@@ -365,20 +347,15 @@ h5{
     #back{
         padding-left: 48%;
     }
-    /*#background{  
-        background: url(images/fondolaptop.svg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        background-position: bottom;  
-    }*/
-    #back{
-        display: none;
+   
+    .projects{ 
+        height: 50%;
     }
 
-    footer{   
+   /* footer{   
         margin-top: 60%;
         }
         .fr2{
             margin-top: 60%;
-          }  
+          }  */
        }
