@@ -5,7 +5,7 @@
 }
 
 #background{  
-    background: url(images/fondo2.svg);
+    background: url(images/background2.svg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
@@ -86,7 +86,7 @@ p{
 .imgSocials{
   align-items: center;
   width: 70px;
-  margin-top: 80px; 
+  margin-top: 80%; 
 }
 
 .imgSocials:hover{
@@ -107,7 +107,8 @@ p{
 
 #arrow,
 #back {
-    padding-left: 710px;
+   /* padding-left: 710px;*/
+   padding-left: 48.5%; 
 }
 #h3sm{
     color: rgba(171, 67, 140, 1);  
@@ -209,12 +210,12 @@ h5{
 
 @media (max-width:425px){
    
-    #background{  
+    /*#background{  
         background: url(images/fondocel2.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;
-    }
+    }*/
    
     #home{
         padding-top: 45%;
@@ -281,17 +282,23 @@ h5{
         }
       footer{
         margin-top: 900px;
-      }  
+      } 
+      .fr2{
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+        height: 40px;
+      }
 }
 
 @media screen and (min-width:426px) and (max-width:1023px){
 
-    #background{  
+   /* #background{  
         background: url(images/fondotablet.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;  
-    }
+    }*/
 
     h1{
         font-size: 60px;  
@@ -362,12 +369,12 @@ h5{
     #back{
         padding-left: 48%;
     }
-    #background{  
+    /*#background{  
         background: url(images/fondolaptop.svg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: bottom;  
-    }
+    }*/
     #back{
         display: none;
     }
