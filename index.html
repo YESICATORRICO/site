@@ -1,73 +1,91 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-     <meta charset="UTF-8">
-     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="style.css">
-     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Alegreya:wght@500&family=Karla:wght@700&display=swap" rel="stylesheet">
-
-<title>Design UX/UI - Yesica Torrico</title>
-     
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Yesica T| Portafolio</title>
 </head>
 <body>
-
-     <header  id="background">
-          <nav class="navbar">
-               <div class="container">
-                   <ul>
-                   <li class="click" > <a href="./sections/aboutme.html"> <b> Sobre mi </b></a></li>
-                 
-                   </ul>
-               </div>
-           </nav>
-
-    <div id="home">
-     <h2>Hola 👋, me llamo Yesica </h2>
-     <h1>UX/UI DESIGNER</h1>
-     <h2>Te invito a ver mis proyectos.</h2>
-    </div>
-
-    <section class="socials">
-          <a   href="https://www.linkedin.com/in/yesica-t-uxui/"> <img class="imgSocials" src="./images/linkedin.svg" alt="" > </a>
-          <a class="Be" href="https://www.behance.net/yest1"> <img class="imgSocials" src="./images/Behance.svg" alt="" > </a>
-          <a href="https://github.com/YESICATORRICO"> <img class="imgSocials" src="./images/Github.svg" alt="" > </a>
+    <header id="main" class="bk-header">
+        <nav class="navbar">
+            <div class="container">
+                <ul>
+                <li> <a  href="#main"> <b> INICIO </b></a></li>
+                <li> <a href="#aboutme">SOBRE MI</a></li>
+                <li> <a href="#projects">PROYECTOS</a></li>
+                </ul>
+            </div>
+        </nav>
+    
+<!--Sección principal-->
+        <div id="showcase">
+            <div class="container pt-1 pb-1 ">
+                <h1 class="display-1" > <b> YESICA TORRICO </b></h1>
+                <p class="display-2"> UX/UI Designer</p>
+            </div>
+            <section class="socials">
+          <a href="https://www.linkedin.com/in/yesica-t-uxui/"> <img class="imgSocials" src="./imagenes/LinkedIn.svg" alt="" > </a>
+          <a class="Be" href="https://www.behance.net/yest1"> <img class="imgSocials" src="./imagenes/Behance.svg" alt="" > </a>
+          <a href="https://github.com/YESICATORRICO"> <img class="imgSocials" src="./imagenes/Github.svg" alt="" > </a>
     </section>
-  
-    <a id="arrow" href="#detail"><img src="./images/abajo.png" alt=""></a>
-</header>
+        </div>
+        <a id="arrow" href="#detail"><img src="./imagenes/abajo.svg" alt=""></a>
+    </header>
 
-<h3 id="detail">ALGUNOS DE MIS ÚLTIMOS TRABAJOS</h3>
+<!--sección sobre mi-->
+<section id="aboutme" class="pt-2 pb-2">
+    <div class="container"  id="detail">
+        <div class="flex">
+            <div class="m-1">
+                <img id="me" src="imagenes/me.svg" alt="">
+            </div>
+            <div class="m-1">
+                <h2 > <b> Sobre mi </b></h2>
+               
+                <p>Luego de más de 10 años trabajando en varias en empresas y en diferentes rubros, decidí dar un giro en mi profesión y salir de mi zona de confort. <b> <i class="color"> Fue así que decidí estudiar diseño UX/UI.</i> </b></P> 
+                <P> Actualmente trabajo de forma independiente desarrollando proyectos relacionados a mejorar la experiencia de usuario, creando piezas gráficas o páginas web y tuve la oportunidad de colaborar con equipos multidisciplinarios de desarrollo, adquiriendo experiencia que enriqueció mi perfil profesional.</p>
+                <P> <b> Puedo destacar los siguientes hitos en 2023:</b></P>
+                <p class="item"> - Mentora en UMAI UX Challenge 2023.</p>
+                <p class="item"> - Colaboración en la presentación "Graphs, not trees: a ground-up approach to fixing a docs site" exhibida en la Conferencia WTD Atlantic 2023, organizado por la comunidad Write the Docs. <a href=https://wellshapedwords.com/posts/writeup-wtd-atlantic-2023/> <b class="link">  <u> Ver Publicación </u> </b></a> </p>
+                <p class="item"> - Contribución con propuestas de mejora de UX en la plataforma de Marketcetera y elaboración de piezas gráficas para la página web (sección DOCS). <a href=https://repo.marketcetera.org/metc-doc/> <b class="link"> <u> Visitar página </u> </b></a></p>
 
-<div class="projects">
-     <div class="card">
-          <img  src="./images/proj1.svg" alt="">
-          <p> <b> <i> Diseño UX/UI - Pagina web </i></b></p>
-          <p> Proyecto real. UX Research e interfaz de usuario de la web, desde 0.</p>
-          <a href="https://www.behance.net/gallery/170083017/Reporte-UXUI-Espacio-Agroecologico">Ver proyecto</a>
-     </div>
-     <div class="card">
-          <img  src="./images/repux.svg" alt="">
-          <p> <b><i> UX Research </i></b> </p>
-          <p>Caso de estudio. Análisis y evaluación de oportunidades de mejora de una app.</p>
-          <a href="https://www.behance.net/gallery/174227521/UX-Research-Project">Ver proyecto</a>
-     </div>
-     <div class="card">
-          <img src="./images/koktelapp.svg" alt="">
-          <p> <b> <i> UX Writing </i></b> </p>
-          <p> Caso de estudio. Diseño con foco en la redacción centrada en el usuario. </p>
-          <a href="https://www.behance.net/gallery/166367331/UX-WRITINGKoktel-2023">Ver proyecto </a>
-     </div>
+             </div>
+        </div>
+    </div>
+</section>
 
+<!--sección proyectos-->
+ <section id="projects" class="bk-color-light pt-2 pd-2">
+    <div class="container">
+        <h2 class="txt-center"><b> Últimos proyectos </b></h2>
+    
+ <div class="projects">
+    <div class="card">
+         <a href=https://www.behance.net/gallery/191455409/Rediseno-UXUI-Elementos-de-la-experiencia-de-usuario><img src="./imagenes/booking.png" alt=""></a>
+         <h3> <b> <i> Rediseño UX/UI - Pagina web </i></b></h3>
+         <p>Caso de estudio. Rediseño web con foco en la experiencia de usuario.</p>
+         <a href=https://www.behance.net/gallery/191455409/Rediseno-UXUI-Elementos-de-la-experiencia-de-usuario> <h4> Ver reporte UX/UI </h4></a>
+    </div>
+    <div class="card">
+         <a href="https://www.behance.net/gallery/170083017/Reporte-UXUI-Espacio-Agroecologico"><img  src="./imagenes/proj1.png" alt=""></a>
+         <h3> <b><i> Diseño web </i></b> </h3>
+         <p>Proyecto real. UX Research e interfaz de usuario de la web, desde 0.</p>
+         <a href="https://www.behance.net/gallery/170083017/Reporte-UXUI-Espacio-Agroecologico"> <h4> Ver reporte de diseño </h4></a>
+    </div>
+    <div class="card">
+        <a href="https://www.behance.net/gallery/166367331/UX-WRITINGKoktel-2023"> <img src="./imagenes/koktelApp.png" alt=""> </a>
+         <h3> <b> <i> UX Writing </i></b> </h3>
+         <p> Caso de estudio. Diseño con foco en la redacción centrada en el usuario. </p>
+         <a href="https://www.behance.net/gallery/166367331/UX-WRITINGKoktel-2023"> <h4> Ver reporte UX Writing </h4></a>
+    </div>
 </div>
- <a  href="#background"><img id="back" src="./images/arriba.png" alt=""></a> 
- <footer>
-          <h5>Derechos reservados 2023 - UX/UI Designer Yesica.T</h5>
-</footer>
+<a  href="#"><img id="back" src="./imagenes/arriba.svg" alt=""></a> 
+</section>
 
+<footer  class="bk-black">
+    <h4 class="derechos" >Todos los derechos reservados - 2024</h4>
+</footer>
 </body>
 </html>
